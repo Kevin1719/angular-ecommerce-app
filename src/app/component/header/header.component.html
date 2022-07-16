@@ -1,0 +1,20 @@
+<header>
+    <div class="navbar navbar-dark shadow-sm" style="padding-left: 10px; background-color: crimson">
+        <div class="navbar-brand align-item-center d-flex">
+            <i style="font-size: 40px;" class="fas fa-shipping-fast">&nbsp;
+
+            </i>
+            <strong style="font-size: 30px;">Let's buy more</strong>
+            <div class="form-group">
+                <input type="text" class="form-control" [(ngModel)]="searchTerm" (keyup)="search($event)" placeholder="rechercher produits" style="width: 90%">
+            </div>
+            <span class="fas fa-search search-icon" style="color: crimson"></span>
+
+
+        </div>
+        <button routerLink="cart" class="btn">
+            <i style="font-size: 30px; color: white" class="fas fa-cart-plus"></i>
+            <div style="font-size: 10px;" class="badge bg-primary">{{totalItem}}</div>
+        </button>
+    </div>
+</header>

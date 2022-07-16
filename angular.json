@@ -102,5 +102,8 @@
       }
     }
   },
-  "defaultProject": "add-to-cart-master"
+  "defaultProject": "add-to-cart-master",
+  "cli": {
+    "analytics": "1adb5b1e-ae11-405b-883f-88ff170f5056"
+  }
 }
